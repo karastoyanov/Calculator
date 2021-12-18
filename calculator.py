@@ -8,16 +8,16 @@ class Calculator:
     root.title("Calculator")
     root.geometry("350x600")
      
-    image_num_zero = PhotoImage(file = 'F:\Python_Projects\Personal Projects\Calculator\images\zero.png')
-    image_num_one = PhotoImage(file = 'F:\Python_Projects\Personal Projects\Calculator\images\/number-1.png')
-    image_num_two = PhotoImage(file = 'F:\Python_Projects\Personal Projects\Calculator\images\/two.png')
-    image_num_three = PhotoImage(file = 'F:\Python_Projects\Personal Projects\Calculator\images\/three.png')
-    image_num_four = PhotoImage(file = 'F:\Python_Projects\Personal Projects\Calculator\images\/four.png')
-    image_num_five = PhotoImage(file = 'F:\Python_Projects\Personal Projects\Calculator\images\/five.png')
-    image_num_six = PhotoImage(file = 'F:\Python_Projects\Personal Projects\Calculator\images\six.png')
-    image_num_seven = PhotoImage(file = 'F:\Python_Projects\Personal Projects\Calculator\images\seven.png')
-    image_num_eight = PhotoImage(file = 'F:\Python_Projects\Personal Projects\Calculator\images\eight.png')
-    image_num_nine = PhotoImage('F:\Python_Projects\Personal Projects\Calculator\images\/nine.png')
+    image_num_zero = PhotoImage(file = r'images/zero.png')
+    image_num_one = PhotoImage(file = r'images/number-1.png')
+    image_num_two = PhotoImage(file = r'images/two.png')
+    image_num_three = PhotoImage(file = r'images/three.png')
+    image_num_four = PhotoImage(file = r'images/four.png')
+    image_num_five = PhotoImage(file = r'images/five.png')
+    image_num_six = PhotoImage(file = r'images/six.png')
+    image_num_seven = PhotoImage(file = r'images/seven.png')
+    image_num_eight = PhotoImage(file = r'images/eight.png')
+    image_num_nine = PhotoImage(file = r'images/nine.png')
    
     result_label = Label(root,
                          text = "Result will be shown here.",
