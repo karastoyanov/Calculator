@@ -7,6 +7,7 @@ class Calculator:
     root.resizable(0,0)
     root.geometry("300x600")
     
+    
     input_text = StringVar() 
      
     image_num_zero = PhotoImage(file = r'images/zero.png')
@@ -19,15 +20,12 @@ class Calculator:
     image_num_seven = PhotoImage(file = r'images/seven.png')
     image_num_eight = PhotoImage(file = r'images/eight.png')
     image_num_nine = PhotoImage(file = r'images/nine.png')
-<<<<<<< HEAD
     image_period = PhotoImage(file = r'images/period.png')
     image_equal = PhotoImage(file = r'images/equal.png')
     image_plus = PhotoImage(file = r'images/plus.png')
     image_minus = PhotoImage(file = r'images/minus.png')
     image_slash = PhotoImage(file = r'images/slash.png')
     image_asterisk = PhotoImage(file = r'images/asterisk.png')
-=======
->>>>>>> 6a53eb6aed57f94ac030c09da77420188ccfe7f4
    
     input_frame = Frame(root, 
                         width = 320, 
@@ -211,5 +209,6 @@ def buttonEqual():
 expression = ""
 
 input_text = StringVar() 
+
 
 mainloop()
